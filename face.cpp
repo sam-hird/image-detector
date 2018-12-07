@@ -65,5 +65,6 @@ void detectAndDisplay( Mat frame )
 	{
 		rectangle(frame, Point(faces[i].x, faces[i].y), Point(faces[i].x + faces[i].width, faces[i].y + faces[i].height), Scalar( 0, 255, 0 ), 2);
 	}
+	imshow();
 
 }
